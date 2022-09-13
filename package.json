@@ -1,0 +1,22 @@
+{
+  "name": "skunexus_demo_dev",
+  "version": "1.0.0",
+  "description": "Playwright automation script with BDD_Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require cucumber.js --require step-definitions/**/*.js -f json:cucumber_report.json --publish-quiet",
+    "report": "node reporter.js"
+  },
+  "keywords": [],
+  "author": "Aswini Subramani",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.5.3",
+    "chai": "^4.3.6",
+    "cucumber-html-reporter": "^5.5.0",
+    "cucumber-report": "^1.1.4",
+    "playwright": "^1.25.2",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {}
+}
