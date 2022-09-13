@@ -3,7 +3,7 @@ const {Before, After, BeforeAll, AfterAll} = require('@cucumber/cucumber')
 
 BeforeAll(async () =>
 {
-    global.brower = await playwright['chromium'].launch({headless: false}, { timeout: 10000 })
+    global.brower = await playwright['chromium'].launch({headless: false})
 })
 
 AfterAll(async () =>

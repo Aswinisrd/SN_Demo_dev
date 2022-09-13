@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1755183499
+              "duration": 3305768000
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2909816399
+              "duration": 4580481500
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 77366299
+              "duration": 231726400
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 44627099
+              "duration": 87883499
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 74313000
+              "duration": 125306699
             }
           },
           {
@@ -78,8 +78,9 @@
               "location": "step-definitions\\Login.step.js:26"
             },
             "result": {
-              "status": "passed",
-              "duration": 1409180400
+              "status": "failed",
+              "duration": 5003839999,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Playwright1\\Skunexus_Demo_dev\\node_modules\\@cucumber\\cucumber\\lib\\time.js:64:20)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)"
             }
           },
           {
@@ -87,7 +88,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 216689300
+              "duration": 153230800
             }
           }
         ],
@@ -111,7 +112,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1016555999
+              "duration": 2290601400
             }
           },
           {
@@ -124,7 +125,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3371639699
+              "duration": 4121434299
             }
           },
           {
@@ -137,7 +138,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 84993300
+              "duration": 106175000
             }
           },
           {
@@ -150,7 +151,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 43158999
+              "duration": 59735399
             }
           },
           {
@@ -163,7 +164,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 74001200
+              "duration": 1067120100
             }
           },
           {
@@ -175,8 +176,9 @@
               "location": "step-definitions\\Login.step.js:26"
             },
             "result": {
-              "status": "passed",
-              "duration": 1592856299
+              "status": "failed",
+              "duration": 5008355000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Playwright1\\Skunexus_Demo_dev\\node_modules\\@cucumber\\cucumber\\lib\\time.js:64:20)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)"
             }
           },
           {
@@ -184,7 +186,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 97458999
+              "duration": 69700000
             }
           }
         ],
@@ -208,7 +210,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 976023999
+              "duration": 1961730700
             }
           },
           {
@@ -221,7 +223,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4197726499
+              "duration": 5025534000
             }
           },
           {
@@ -234,7 +236,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 71487399
+              "duration": 117331599
             }
           },
           {
@@ -247,7 +249,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36539800
+              "duration": 64311800
             }
           },
           {
@@ -260,7 +262,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 84436599
+              "duration": 122301300
             }
           },
           {
@@ -272,8 +274,9 @@
               "location": "step-definitions\\Login.step.js:26"
             },
             "result": {
-              "status": "passed",
-              "duration": 1571527300
+              "status": "failed",
+              "duration": 5010157799,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Playwright1\\Skunexus_Demo_dev\\node_modules\\@cucumber\\cucumber\\lib\\time.js:64:20)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)"
             }
           },
           {
@@ -281,7 +284,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 74420199
+              "duration": 83967000
             }
           }
         ],

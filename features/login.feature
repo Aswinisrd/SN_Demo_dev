@@ -11,5 +11,5 @@ Then It should redirect to the dashboard "<usertype>"
 Examples:
 |Emailaddress                 | Password              | usertype             |
 |developer@skunexus.com       |ChangeMe2021!          | Systemadmin          |
-|aswini+user1@skunexus.com    |Test@123               | Regularuser          |
+|gi    |Test@123               | Regularuser          |
 |aswini+vendoruser1@skunexus.com |Test@123            | Vendoruser           |    

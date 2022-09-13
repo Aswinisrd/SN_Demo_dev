@@ -3,12 +3,12 @@ const {LoginPage} = require('../page-objects/login-page')
 
 const Login = new LoginPage()
 
-Given('Launch the demo-dev url', async function()
+Given('Launch the demo-dev url', { timeout: 60 * 1000 }, async function()
 {
     await Login.LaunchUrl()
 })
 
-When(/^Enter the emailaddress "([^"]*)"$/, async function(Emailaddress)
+When(/^Enter the emailaddress "([^"]*)"$/, { timeout: 60 * 1000 },async function(Emailaddress)
 {
     await Login.EnterEmailAddress(Emailaddress)
 })
