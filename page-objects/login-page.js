@@ -1,4 +1,4 @@
-const  demodevprooperties = require('../setup/properties')
+const  demodevprooperties = require('../utils/properties')
 
 let loginpage=
 {
@@ -33,12 +33,13 @@ class LoginPage
     await page.click(loginpage.loginbutton)
     }
    
-    async VerifyLogin(usertype)
-    { 
-           
+    async  VerifyLogin(usertype)
+    {       
             await page.locator(loginpage.Dashboard)
-            console.log("Login as a "+usertype+"  "+await page.locator(loginpage.Username).textContent())        
+            console.log("Login as a "+usertype+"  "+await page.locator(loginpage.Username).textContent()) 
+
     }   
+
 
     async pause()
     {
